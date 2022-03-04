@@ -13,10 +13,29 @@
 <body>
   <div id="problems"></div>
   <div id="response-area">
+    <hr>
     <div>
       <h3 id="is-correct"></h3>
+      <p id="your-command"></p>
+      <div id="pn-button-area">
+        <button id="prev-button">prev</button>
+        <button id="next-button">next</button>
+      </div>
     </div>
-    <div id="result-area"></div>
+    <div id="result-area">
+      <div class="pcn-wrapper">
+        <div><span>prev: </span><p id="prev-cmd" class="pcn-label"></p></div>
+        <div class="pcn-result" id="prev-result"></div>
+      </div>
+      <div class="pcn-wrapper">
+        <div><span>current👀: </span><p id="current-cmd" class="pcn-label"></p></div>
+        <div class="pcn-result" id="current-result"></div>
+      </div>
+      <div class="pcn-wrapper">
+        <div><span>next: </span><p id="next-cmd" class="pcn-label"></p></div>
+        <div class="pcn-result" id="next-result"></div>
+      </div>
+    </div>
   </div>
 </body>
 
